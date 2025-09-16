@@ -1,0 +1,18 @@
+# 1200일 기념일 하트 애니메이션을 위한 Python 라이브러리 의존성
+# Love 1200 Days Anniversary Heart Animation Dependencies
+
+# 수치 계산 및 배열 처리
+numpy>=1.21.0
+
+# 그래픽 및 애니메이션
+matplotlib>=3.5.0
+
+# 3D 이미지 처리 및 marching cubes
+scikit-image>=0.19.0
+
+# 추가 의존성 (scikit-image가 필요로 함)
+scipy>=1.7.0
+Pillow>=8.3.0
+
+# 선택적 의존성 (성능 향상)
+# numba>=0.56.0  # JIT 컴파일로 성능 향상 (선택사항)
